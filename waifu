@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+<title> NVQM's waifu capsule</title>
+  <style>
+    header {
+      text-align: center;
+      background: url('https://static.zerochan.net/Asahina.Mafuyu.full.3457090.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      padding: 250px 0px 0px 0px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    body {
+      background: pink;
+    }
+   </style>
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <ul>
+      <li><a href="https://www.facebook.com/profile.php?id=100041844638363">Facebook</a></li>
+      <li><a href="https://www.instagram.com/yys.nvqm/">Instagram</a></li>
+      <li><a href="https://twitter.com/NguynVnQuangMi3">Twitter</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Tenka Izumo</h2>
+    <img src="https://static.wikia.nocookie.net/mato-seihei-no-slave/images/4/43/Tenka_Face.png/revision/latest?cb=20210527053005"
+    width=400>
+    <br>
+    <button>Waifu</button>
+  </article>
+  <article>
+    <h2>Jess</h2>
+    <img src="https://newsfresh.net/wp-content/uploads/2021/12/4390-Heat-the-Pig-Liver-Novels.jpg"
+    width=400>
+    <br>
+    <button>Waifu</button>
+  </article>
+  <article>
+    <h2>Asahina Mafuyu</h2>
+     <img src="https://static.wikia.nocookie.net/projectsekai/images/b/be/Within_the_First_Snow_T_transparent.png/revision/latest/scale-to-width-down/600?cb=20211130201503"
+    width=400>
+    <br>
+    <button>Waifu</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Waifued");
+    });
+  </script>
+</body>
